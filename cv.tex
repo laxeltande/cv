@@ -1,0 +1,162 @@
+\documentclass{doga_cv}
+
+% ---- Header ----
+\setname{Doga}{Kaptanoglu}
+\setaddress{Toronto, ON, Canada}
+\setmobile{+1 (416) 828-2993}
+\setmail{dogakaptanoglu@gmail.com}
+\setlinkedinaccount{https://www.linkedin.com/in/doga-kaptanoglu-9b76b823a}
+\setgithubaccount{https://github.com/<your-github>}
+\setthemecolor{MidnightBlue}
+
+\begin{document}
+
+\headerview
+\vspace{1ex}
+
+% -------------------- Education --------------------
+\section{Education}
+\datedexperience{Toronto Metropolitan University}{Expected 2027}
+\explanation{B.Eng. Computer Engineering \textnormal{(Minor in Psychology)}}{Toronto, ON}
+
+% -------------------- Skills --------------------
+\section{Skills}
+
+\newcommand{\skillone}{
+\createskill{Programming}{
+C \cpshalf Java \cpshalf Go \cpshalf Python \cpshalf SQL \cpshalf R \cpshalf HTML
+}}
+
+\newcommand{\skilltwo}{
+\createskill{Systems \& Tools}{
+Linux \cpshalf Git \cpshalf Docker \cpshalf Kubernetes \cpshalf Postman \cpshalf REST APIs \cpshalf ROS
+}}
+
+\newcommand{\skillthree}{
+\createskill{Engineering Domains}{
+Robotics \cpshalf Control Systems \cpshalf Backend Dev \cpshalf Networking/Security \cpshalf ML Research
+}}
+
+\newcommand{\skillfour}{
+\createskill{Languages}{
+English (Fluent) \cpshalf Turkish (Native) \cpshalf French (Fluent)
+}}
+
+\createskills{\skillone, \skilltwo, \skillthree, \skillfour}
+\vspace{-3mm}
+
+% -------------------- Experience --------------------
+\section{Experience}
+
+\datedexperience{Toronto Metropolitan University}{Sep 2025 -- Present}
+\explanation{Undergraduate Research Assistant (Cancer Imaging)}{Toronto, ON}
+\explanationdetail{
+\smallskip
+\coloredbullet\ %
+Improved a chemotherapy response prediction algorithm in Python, and  ran performance tests.
+
+\smallskip
+\coloredbullet\ %
+Refactored and optimized ML-based legacy research code later validated through parallel team development.
+
+\smallskip
+\coloredbullet\ %
+Worked under real experimental constraints including noisy data and evolving research requirements.
+}
+
+\datedexperience{United Payment (Fintech)}{Oct 2023 -- Jan 2024}
+\explanation{Software Engineering Intern (Backend)}{Istanbul, Turkey}
+\explanationdetail{
+\smallskip
+\coloredbullet\ %
+Developed backend features in Go within Agile sprints; implemented and tested REST APIs using Postman and SQL.
+
+\smallskip
+\coloredbullet\ %
+Used Docker and Kubernetes workflows with Git to develop and deploy changes across environments.
+
+\smallskip
+\coloredbullet\ %
+Debugged API behavior and search logic issues via log inspection and team collaboration.
+}
+
+\datedexperience{MTNS Solutions Inc.}{Apr 2023 -- May 2023}
+\explanation{Programmer (Security Tooling)}{Toronto, ON}
+\explanationdetail{
+\smallskip
+\coloredbullet\ %
+Ran security scans using Nmap and analyzed outputs to identify risks and misconfigurations.
+
+\smallskip
+\coloredbullet\ %
+Improved a Python script to convert Nmap output into customer-ready reports.
+}
+
+\datedexperience{IBOM Health Travel}{Nov 2023 -- Present}
+\explanation{Chief Technology Officer}{Remote}
+\explanationdetail{
+\smallskip
+\coloredbullet\ %
+Coordinated technical operations with developers to launch and maintain clinic websites and infrastructure.
+}
+
+% -------------------- Projects / Leadership --------------------
+\section{Projects \& Technical Leadership}
+
+\datedexperience{Toronto Autonomous Systems Collective}{Sep 2024 -- Present}
+\explanation{Autonomous Navigation; Communications \& Controls}{Toronto, ON}
+\explanationdetail{
+\smallskip
+\raggedright
+\coloredbullet\ %
+Developed Linux-based ROS software for a Mars rover competing in CIRC; integrated sensors, WiFi, and control logic.
+
+\smallskip
+\coloredbullet\ %
+Designed and tested rover networking architecture using static IP configuration, ROS topics, and distributed nodes across onboard computers.
+
+\smallskip
+\coloredbullet\ %
+Integrated an offline large language model to translate high-level commands into autonomous rover control actions under limited connectivity.
+
+\smallskip
+\coloredbullet\ %
+Performed hands-on hardware integration, wiring Jetson, motor controllers, wheel encoders, and sensors; debugged power and communication issues.
+}
+
+
+\datedexperience{Toronto Met Robotics}{Dec 2021 -- Apr 2022}
+\explanation{Mechanical Team Member}{Toronto, ON}
+\explanationdetail{
+\smallskip
+\raggedright
+\coloredbullet\ %
+Designed and prototyped robot components in Onshape CAD; proposed performance-driven design changes.
+}
+
+\vspace{-2mm} % <-- removes the weird gap before FFA
+
+\datedexperience{French For All (TMU)}{Sep 2024 -- Present}
+\explanation{President}{Toronto, ON}
+\explanationdetail{
+\smallskip
+\raggedright
+\coloredbullet\ %
+Led event planning and coordinated teams for recurring academic and cultural events.
+}
+
+
+% -------------------- Publications --------------------
+\section{Publications}
+\explanationdetail{
+\smallskip
+\coloredbullet\ %
+\textbf{D. Kaptanoglu}, et al., ``Growth rate of a giant Tarlov (perineural) cyst with intrapelvic extension,'' \emph{European Spine Journal}, 2024.
+}
+
+% -------------------- Certifications --------------------
+\section{Certifications}
+\datedexperience{DataWorks Certificate (MDSA)}{Sep 2024 -- Dec 2024}
+\explanation{Applied R, SQL, and Python to data analysis workflows}{}
+
+\end{document}
